@@ -34,7 +34,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tag: fee-fi-fo-fum-v1
+          tags: fee-fi-fo-fum-v1
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}

@@ -1,4 +1,4 @@
-FROM centos:centos6.10
+FROM centos:centos7
 MAINTAINER whoknows
 
 RUN yum update -q -y

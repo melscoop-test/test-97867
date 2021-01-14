@@ -22,12 +22,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-        # Login to Docker registry
-      - name: login to docker hub
-        uses: docker/login-action@master
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+#        # Login to Docker registry
+#      - name: login to docker hub
+#        uses: docker/login-action@master
+#        with:
+#          username: ${{ secrets.DOCKERHUB_USERNAME }}
+#          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push Docker images
         # You may pin to the exact commit or the version.

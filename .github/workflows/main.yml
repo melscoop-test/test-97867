@@ -52,7 +52,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: fee-fi-fo-fum-v1
+          tags: melscoop/app1:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
